@@ -1,0 +1,21 @@
+{
+  "MamasAndPapas": {
+    "colorsUrl": "https://www.mamasandpapas.ae/directory/colors",
+    "search": {
+      "url": "https://www.mamasandpapas.ae/search/full?searchString=",
+      "filter": "&filters[availableColors][]=",
+      "limit":"15"
+    }
+  },
+  "Ounass": {
+    "colorsUrl": "https://www.ounass.ae/directory/colors",
+    "search": {
+      "url": "https://www.ounass.ae/search/full?searchString=",
+      "filter": "&filters[availableColors][]=",
+      "limit":"15"
+    }
+  },
+  "redis":{
+      "cacheExpire":"60*30"
+  }
+}
