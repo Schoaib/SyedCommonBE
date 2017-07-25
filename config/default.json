@@ -16,6 +16,6 @@
     }
   },
   "redis":{
-      "cacheExpire":"60*30"
+      "cacheExpire":"1800"
   }
 }
