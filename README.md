@@ -1,3 +1,4 @@
+# Express & ES6 REST API
 This project is created to serve as backend api for SyedBrand1FE and SyedBrand2FE projects.
 
 The projects supports the following:<br>
@@ -38,10 +39,10 @@ Runs the app for production.<br>
 
 ## Docker Support
 
-### Create Image
+#### Create Image
 ### `docker build -t syedcommonbe:1.0 .`
 
-### Create Container
+#### Create Container
 ### `docker run -p 8080:8080 --name syedcommonbe syedcommonbe:1.0`
 
 
