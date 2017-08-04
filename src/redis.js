@@ -8,6 +8,6 @@ bluebird.promisifyAll(redis.Multi.prototype);
 
 const client = redis.createClient(process.env.REDIS_URL);
 
-client.on('error', err => console.log(err)); 
+client.on('error', err => console.log(err));
 
 export default client;
